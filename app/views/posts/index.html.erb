@@ -3,7 +3,7 @@
 <div class="contents">
   <% @posts.each do |post| %>
     <div>
-      <%= post.id %><%= post.contents %><%= link_to "編集", edit_post_path(post) %>
+      <%= post.id %><%= post.contents %><%= link_to "編集", edit_post_path(post) %> <%= link_to "削除", post_path(post), method: :delete %>
     </div>
   <% end %>
 </div>
