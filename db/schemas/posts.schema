@@ -1,0 +1,6 @@
+  create_table "posts", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
+    t.string "image", null: false, comment: "画像"
+    t.string "contents", null: false, comment: "本文"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end

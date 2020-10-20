@@ -1,0 +1,4 @@
+require 'posts.schema'
+require 'blands.schema'
+require 'items.schema'
+require 'goods_useds.schema'
